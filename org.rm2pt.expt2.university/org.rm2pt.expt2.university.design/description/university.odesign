@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="university" version="12.0.0.2017041100">
+  <ownedViewpoints name="university">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="university diagram" domainClass="university::University" enablePopupBars="true">
+      <defaultLayer name="Default">
+        <nodeMappings name="SchoolNode" domainClass="university::School">
+          <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="StudentNode" domainClass="university::Student">
+          <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="TeacherNode" domainClass="university::Teacher">
+          <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="WorkIn" sourceMapping="//@ownedViewpoints[name='university']/@ownedRepresentations[name='university%20diagram']/@defaultLayer/@nodeMappings[name='TeacherNode']" targetMapping="//@ownedViewpoints[name='university']/@ownedRepresentations[name='university%20diagram']/@defaultLayer/@nodeMappings[name='SchoolNode']" targetFinderExpression="feature:workIn">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='green']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="TeacherTeach" sourceMapping="//@ownedViewpoints[name='university']/@ownedRepresentations[name='university%20diagram']/@defaultLayer/@nodeMappings[name='TeacherNode']" targetMapping="//@ownedViewpoints[name='university']/@ownedRepresentations[name='university%20diagram']/@defaultLayer/@nodeMappings[name='StudentNode']" targetFinderExpression="feature:teach">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="StudyIn" sourceMapping="//@ownedViewpoints[name='university']/@ownedRepresentations[name='university%20diagram']/@defaultLayer/@nodeMappings[name='StudentNode']" targetMapping="//@ownedViewpoints[name='university']/@ownedRepresentations[name='university%20diagram']/@defaultLayer/@nodeMappings[name='SchoolNode']" targetFinderExpression="feature:studyIn">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="StudentStudy" sourceMapping="//@ownedViewpoints[name='university']/@ownedRepresentations[name='university%20diagram']/@defaultLayer/@nodeMappings[name='StudentNode']" targetMapping="//@ownedViewpoints[name='university']/@ownedRepresentations[name='university%20diagram']/@defaultLayer/@nodeMappings[name='TeacherNode']" targetFinderExpression="feature:follow">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="ContainPerson" sourceMapping="//@ownedViewpoints[name='university']/@ownedRepresentations[name='university%20diagram']/@defaultLayer/@nodeMappings[name='SchoolNode']" targetMapping="//@ownedViewpoints[name='university']/@ownedRepresentations[name='university%20diagram']/@defaultLayer/@nodeMappings[name='StudentNode'] //@ownedViewpoints[name='university']/@ownedRepresentations[name='university%20diagram']/@defaultLayer/@nodeMappings[name='TeacherNode']" targetFinderExpression="1feature:containPerson">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='orange']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <toolSections name="section1">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="createTeacher" label="Teacher" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='university']/@ownedRepresentations[name='university%20diagram']/@defaultLayer/@nodeMappings[name='TeacherNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="university::Teacher" referenceName="members"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="createSchool" label="School" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='university']/@ownedRepresentations[name='university%20diagram']/@defaultLayer/@nodeMappings[name='SchoolNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="university::School" referenceName="contain">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'school'+container.contain->filter(university::School)->size()"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="sid" valueExpression="aql:container.contain->filter(university::School)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="createStudent" label="Student" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='university']/@ownedRepresentations[name='university%20diagram']/@defaultLayer/@nodeMappings[name='StudentNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="university::Student" referenceName="contain"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="org.rm2pt.expt2.university.design.Services"/>
+  </ownedViewpoints>
+</description:Group>

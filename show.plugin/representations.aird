@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:university="http://www.rm2pt.com/university" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_0aDNkJN0Ee6Su4lZ6TohJg" selectedViews="_MUrv0JN3Ee6Su4lZ6TohJg" version="14.5.1.202106111100">
+    <semanticResources>My.university</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_MUrv0JN3Ee6Su4lZ6TohJg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/org.rm2pt.expt2.university.design/description/university.odesign#//@ownedViewpoints[name='university']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_MkYYsJN3Ee6Su4lZ6TohJg" name="new university diagram" repPath="#_MkCacJN3Ee6Su4lZ6TohJg" changeId="a448be40-3f25-44ed-9893-cbb7a48dd7e6">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.rm2pt.expt2.university.design/description/university.odesign#//@ownedViewpoints[name='university']/@ownedRepresentations[name='university%20diagram']"/>
+        <target xmi:type="university:University" href="My.university#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_MkCacJN3Ee6Su4lZ6TohJg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_MlH_kJN3Ee6Su4lZ6TohJg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_MlH_kZN3Ee6Su4lZ6TohJg" type="Sirius" element="_MkCacJN3Ee6Su4lZ6TohJg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_W98NgJN3Ee6Su4lZ6TohJg" type="2001" element="_W9HHEJN3Ee6Su4lZ6TohJg">
+          <children xmi:type="notation:Node" xmi:id="_W9_Q0JN3Ee6Su4lZ6TohJg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_W9_Q0ZN3Ee6Su4lZ6TohJg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_W-DiQJN3Ee6Su4lZ6TohJg" type="3003" element="_W9gIoJN3Ee6Su4lZ6TohJg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_W-DiQZN3Ee6Su4lZ6TohJg" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W-DiQpN3Ee6Su4lZ6TohJg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_W98NgZN3Ee6Su4lZ6TohJg" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W98NgpN3Ee6Su4lZ6TohJg" x="170" y="60" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_W-BGAJN3Ee6Su4lZ6TohJg" type="2001" element="_W9jzAJN3Ee6Su4lZ6TohJg">
+          <children xmi:type="notation:Node" xmi:id="_W-BtEJN3Ee6Su4lZ6TohJg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_W-BtEZN3Ee6Su4lZ6TohJg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_W-EJUJN3Ee6Su4lZ6TohJg" type="3003" element="_W9jzAZN3Ee6Su4lZ6TohJg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_W-EJUZN3Ee6Su4lZ6TohJg" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W-EJUpN3Ee6Su4lZ6TohJg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_W-BGAZN3Ee6Su4lZ6TohJg" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W-BGApN3Ee6Su4lZ6TohJg" x="235" y="370" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_W-BtEpN3Ee6Su4lZ6TohJg" type="2001" element="_W9kaEZN3Ee6Su4lZ6TohJg">
+          <children xmi:type="notation:Node" xmi:id="_W-BtFZN3Ee6Su4lZ6TohJg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_W-BtFpN3Ee6Su4lZ6TohJg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_W-EwYJN3Ee6Su4lZ6TohJg" type="3003" element="_W9kaEpN3Ee6Su4lZ6TohJg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_W-EwYZN3Ee6Su4lZ6TohJg" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W-EwYpN3Ee6Su4lZ6TohJg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_W-BtE5N3Ee6Su4lZ6TohJg" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W-BtFJN3Ee6Su4lZ6TohJg" x="60" y="355" width="100" height="50"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_MlH_kpN3Ee6Su4lZ6TohJg"/>
+        <edges xmi:type="notation:Edge" xmi:id="_W-KP8JN3Ee6Su4lZ6TohJg" type="4001" element="_W9oEcJN3Ee6Su4lZ6TohJg" source="_W-BtEpN3Ee6Su4lZ6TohJg" target="_W98NgJN3Ee6Su4lZ6TohJg">
+          <children xmi:type="notation:Node" xmi:id="_W-K3AJN3Ee6Su4lZ6TohJg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W-K3AZN3Ee6Su4lZ6TohJg" x="33" y="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_W-LeEJN3Ee6Su4lZ6TohJg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W-LeEZN3Ee6Su4lZ6TohJg" x="-9" y="3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_W-MFIJN3Ee6Su4lZ6TohJg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W-MFIZN3Ee6Su4lZ6TohJg" x="-46" y="-1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_W-KP8ZN3Ee6Su4lZ6TohJg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_W-KP8pN3Ee6Su4lZ6TohJg" fontColor="3465866" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_W-KP85N3Ee6Su4lZ6TohJg" points="[9, -25, -101, 270]$[100, -270, -10, 25]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_W-XrUJN3Ee6Su4lZ6TohJg" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_W-YSYJN3Ee6Su4lZ6TohJg" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_W-YSYZN3Ee6Su4lZ6TohJg" type="4001" element="_W9ru0JN3Ee6Su4lZ6TohJg" source="_W-BtEpN3Ee6Su4lZ6TohJg" target="_W-BGAJN3Ee6Su4lZ6TohJg">
+          <children xmi:type="notation:Node" xmi:id="_W-YSZZN3Ee6Su4lZ6TohJg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W-YSZpN3Ee6Su4lZ6TohJg" x="-8" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_W-YSZ5N3Ee6Su4lZ6TohJg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W-YSaJN3Ee6Su4lZ6TohJg" x="-9" y="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_W-Y5cJN3Ee6Su4lZ6TohJg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W-Y5cZN3Ee6Su4lZ6TohJg" x="-5" y="1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_W-YSYpN3Ee6Su4lZ6TohJg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_W-YSY5N3Ee6Su4lZ6TohJg" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_W-YSZJN3Ee6Su4lZ6TohJg" points="[50, 4, -125, -11]$[88, -8, -87, -23]$[125, 10, -50, -5]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_W-Y5cpN3Ee6Su4lZ6TohJg" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_W-Y5c5N3Ee6Su4lZ6TohJg" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_W-Y5dJN3Ee6Su4lZ6TohJg" type="4001" element="_W9sV4JN3Ee6Su4lZ6TohJg" source="_W-BGAJN3Ee6Su4lZ6TohJg" target="_W98NgJN3Ee6Su4lZ6TohJg">
+          <children xmi:type="notation:Node" xmi:id="_W-Y5eJN3Ee6Su4lZ6TohJg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W-Y5eZN3Ee6Su4lZ6TohJg" x="23" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_W-ZggJN3Ee6Su4lZ6TohJg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W-ZggZN3Ee6Su4lZ6TohJg" x="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_W-ZggpN3Ee6Su4lZ6TohJg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W-Zgg5N3Ee6Su4lZ6TohJg" x="-18"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_W-Y5dZN3Ee6Su4lZ6TohJg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_W-Y5dpN3Ee6Su4lZ6TohJg" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_W-Y5d5N3Ee6Su4lZ6TohJg" points="[-6, -25, 59, 285]$[-60, -285, 5, 25]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_W-ZghJN3Ee6Su4lZ6TohJg" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_W-ZghZN3Ee6Su4lZ6TohJg" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_W-ZghpN3Ee6Su4lZ6TohJg" type="4001" element="_W9s88JN3Ee6Su4lZ6TohJg" source="_W-BGAJN3Ee6Su4lZ6TohJg" target="_W-BtEpN3Ee6Su4lZ6TohJg">
+          <children xmi:type="notation:Node" xmi:id="_W-aHkJN3Ee6Su4lZ6TohJg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W-aHkZN3Ee6Su4lZ6TohJg" x="6" y="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_W-aHkpN3Ee6Su4lZ6TohJg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W-aHk5N3Ee6Su4lZ6TohJg" x="-7" y="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_W-aHlJN3Ee6Su4lZ6TohJg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W-aHlZN3Ee6Su4lZ6TohJg" x="-6"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_W-Zgh5N3Ee6Su4lZ6TohJg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_W-ZgiJN3Ee6Su4lZ6TohJg" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_W-ZgiZN3Ee6Su4lZ6TohJg" points="[-50, -5, 125, 10]$[-125, -11, 50, 4]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_W-aHlpN3Ee6Su4lZ6TohJg" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_W-aHl5N3Ee6Su4lZ6TohJg" id="(0.5,0.5)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_MldWwJN3Ee6Su4lZ6TohJg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_Mlek4JN3Ee6Su4lZ6TohJg"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_W9HHEJN3Ee6Su4lZ6TohJg" name="school1" incomingEdges="_W9oEcJN3Ee6Su4lZ6TohJg _W9sV4JN3Ee6Su4lZ6TohJg" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="university:School" href="My.university#//@contain.0"/>
+      <semanticElements xmi:type="university:School" href="My.university#//@contain.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_W9gIoJN3Ee6Su4lZ6TohJg" labelSize="12" labelPosition="node" width="10" height="5" color="194,239,255">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/org.rm2pt.expt2.university.design/description/university.odesign#//@ownedViewpoints[name='university']/@ownedRepresentations[name='university%20diagram']/@defaultLayer/@nodeMappings[name='SchoolNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.rm2pt.expt2.university.design/description/university.odesign#//@ownedViewpoints[name='university']/@ownedRepresentations[name='university%20diagram']/@defaultLayer/@nodeMappings[name='SchoolNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_W9jzAJN3Ee6Su4lZ6TohJg" name="Stu1" outgoingEdges="_W9sV4JN3Ee6Su4lZ6TohJg _W9s88JN3Ee6Su4lZ6TohJg" incomingEdges="_W9ru0JN3Ee6Su4lZ6TohJg" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="university:Student" href="My.university#//@contain.0/@containPerson.1"/>
+      <semanticElements xmi:type="university:Student" href="My.university#//@contain.0/@containPerson.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_W9jzAZN3Ee6Su4lZ6TohJg" labelSize="12" labelPosition="node" width="10" height="5" color="204,242,166">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/org.rm2pt.expt2.university.design/description/university.odesign#//@ownedViewpoints[name='university']/@ownedRepresentations[name='university%20diagram']/@defaultLayer/@nodeMappings[name='StudentNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.rm2pt.expt2.university.design/description/university.odesign#//@ownedViewpoints[name='university']/@ownedRepresentations[name='university%20diagram']/@defaultLayer/@nodeMappings[name='StudentNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_W9kaEZN3Ee6Su4lZ6TohJg" name="teacher1" outgoingEdges="_W9oEcJN3Ee6Su4lZ6TohJg _W9ru0JN3Ee6Su4lZ6TohJg" incomingEdges="_W9s88JN3Ee6Su4lZ6TohJg" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="university:Teacher" href="My.university#//@contain.0/@containPerson.0"/>
+      <semanticElements xmi:type="university:Teacher" href="My.university#//@contain.0/@containPerson.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_W9kaEpN3Ee6Su4lZ6TohJg" labelSize="12" labelPosition="node" width="10" height="5" color="246,139,139">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/org.rm2pt.expt2.university.design/description/university.odesign#//@ownedViewpoints[name='university']/@ownedRepresentations[name='university%20diagram']/@defaultLayer/@nodeMappings[name='TeacherNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.rm2pt.expt2.university.design/description/university.odesign#//@ownedViewpoints[name='university']/@ownedRepresentations[name='university%20diagram']/@defaultLayer/@nodeMappings[name='TeacherNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_W9oEcJN3Ee6Su4lZ6TohJg" sourceNode="_W9kaEZN3Ee6Su4lZ6TohJg" targetNode="_W9HHEJN3Ee6Su4lZ6TohJg">
+      <target xmi:type="university:Teacher" href="My.university#//@contain.0/@containPerson.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_W9p5oJN3Ee6Su4lZ6TohJg" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.rm2pt.expt2.university.design/description/university.odesign#//@ownedViewpoints[name='university']/@ownedRepresentations[name='university%20diagram']/@defaultLayer/@edgeMappings[name='WorkIn']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_W9qgsJN3Ee6Su4lZ6TohJg" labelSize="12" labelColor="138,226,52"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.rm2pt.expt2.university.design/description/university.odesign#//@ownedViewpoints[name='university']/@ownedRepresentations[name='university%20diagram']/@defaultLayer/@edgeMappings[name='WorkIn']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_W9ru0JN3Ee6Su4lZ6TohJg" sourceNode="_W9kaEZN3Ee6Su4lZ6TohJg" targetNode="_W9jzAJN3Ee6Su4lZ6TohJg">
+      <target xmi:type="university:Teacher" href="My.university#//@contain.0/@containPerson.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_W9ru0ZN3Ee6Su4lZ6TohJg" size="2" strokeColor="239,41,41">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.rm2pt.expt2.university.design/description/university.odesign#//@ownedViewpoints[name='university']/@ownedRepresentations[name='university%20diagram']/@defaultLayer/@edgeMappings[name='TeacherTeach']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_W9ru0pN3Ee6Su4lZ6TohJg" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.rm2pt.expt2.university.design/description/university.odesign#//@ownedViewpoints[name='university']/@ownedRepresentations[name='university%20diagram']/@defaultLayer/@edgeMappings[name='TeacherTeach']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_W9sV4JN3Ee6Su4lZ6TohJg" sourceNode="_W9jzAJN3Ee6Su4lZ6TohJg" targetNode="_W9HHEJN3Ee6Su4lZ6TohJg">
+      <target xmi:type="university:Student" href="My.university#//@contain.0/@containPerson.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_W9sV4ZN3Ee6Su4lZ6TohJg" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.rm2pt.expt2.university.design/description/university.odesign#//@ownedViewpoints[name='university']/@ownedRepresentations[name='university%20diagram']/@defaultLayer/@edgeMappings[name='StudyIn']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_W9sV4pN3Ee6Su4lZ6TohJg" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.rm2pt.expt2.university.design/description/university.odesign#//@ownedViewpoints[name='university']/@ownedRepresentations[name='university%20diagram']/@defaultLayer/@edgeMappings[name='StudyIn']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_W9s88JN3Ee6Su4lZ6TohJg" sourceNode="_W9jzAJN3Ee6Su4lZ6TohJg" targetNode="_W9kaEZN3Ee6Su4lZ6TohJg">
+      <target xmi:type="university:Student" href="My.university#//@contain.0/@containPerson.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_W9s88ZN3Ee6Su4lZ6TohJg" size="2" strokeColor="239,41,41">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.rm2pt.expt2.university.design/description/university.odesign#//@ownedViewpoints[name='university']/@ownedRepresentations[name='university%20diagram']/@defaultLayer/@edgeMappings[name='StudentStudy']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_W9s88pN3Ee6Su4lZ6TohJg" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.rm2pt.expt2.university.design/description/university.odesign#//@ownedViewpoints[name='university']/@ownedRepresentations[name='university%20diagram']/@defaultLayer/@edgeMappings[name='StudentStudy']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.rm2pt.expt2.university.design/description/university.odesign#//@ownedViewpoints[name='university']/@ownedRepresentations[name='university%20diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_MkLkYJN3Ee6Su4lZ6TohJg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/org.rm2pt.expt2.university.design/description/university.odesign#//@ownedViewpoints[name='university']/@ownedRepresentations[name='university%20diagram']/@defaultLayer"/>
+    <target xmi:type="university:University" href="My.university#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.rm2pt.expt2.university.dsl.ide
+Bundle-ManifestVersion: 2
+Bundle-Name: org.rm2pt.expt2.university.dsl.ide
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.202312051318
+Bundle-SymbolicName: org.rm2pt.expt2.university.dsl.ide; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.rm2pt.expt2.university.metamodel,org.rm2pt.expt2.uni
+ versity.dsl,org.eclipse.xtext.ide,org.eclipse.xtext.xbase.ide,org.antlr
+ .runtime;bundle-version="[3.2.0,3.2.1)"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: org.rm2pt.expt2.university.ide.contentassist.antlr.inter
+ nal,org.rm2pt.expt2.university.ide.contentassist.antlr
+

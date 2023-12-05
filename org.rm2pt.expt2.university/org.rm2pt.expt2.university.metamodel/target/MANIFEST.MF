@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.rm2pt.expt2.university.metamodel;singleton:=tru
+ e
+Automatic-Module-Name: org.rm2pt.expt2.university.metamodel
+Bundle-Version: 1.0.0.202312051318
+Bundle-ClassPath: .
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Export-Package: org.rm2pt.expt2.university.metamodel.university,org.rm2p
+ t.expt2.university.metamodel.university.impl,org.rm2pt.expt2.university
+ .metamodel.university.util
+Require-Bundle: org.eclipse.emf.ecore;visibility:=reexport,org.eclipse.c
+ ore.runtime
+Bundle-ActivationPolicy: lazy
+

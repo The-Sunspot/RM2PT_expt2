@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="university" nsURI="http://www.rm2pt.com/university" nsPrefix="university">
+  <eClassifiers xsi:type="ecore:EClass" name="University">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="contain" upperBound="-1"
+        eType="#//School" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="School">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="sid" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="containPerson" upperBound="-1"
+        eType="#//Person" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Teacher" eSuperTypes="#//Person">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="workIn" upperBound="-1"
+        eType="#//School"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="teach" upperBound="-1"
+        eType="#//Student" eOpposite="#//Student/follow"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Student" eSuperTypes="#//Person">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="studyIn" lowerBound="1"
+        eType="#//School"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="follow" lowerBound="1"
+        upperBound="-1" eType="#//Teacher" eOpposite="#//Teacher/teach"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Person" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+</ecore:EPackage>

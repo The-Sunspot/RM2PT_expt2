@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<university:University xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:university="http://www.rm2pt.com/university">
+  <contain name="school1">
+    <containPerson xsi:type="university:Teacher" name="teacher1" id="1" workIn="//@contain.0" teach="//@contain.0/@containPerson.1"/>
+    <containPerson xsi:type="university:Student" name="Stu1" id="1" studyIn="//@contain.0" follow="//@contain.0/@containPerson.0"/>
+  </contain>
+</university:University>

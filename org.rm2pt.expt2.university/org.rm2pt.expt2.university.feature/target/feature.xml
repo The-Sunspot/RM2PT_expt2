@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.rm2pt.expt2.university.feature"
+      label="org.rm2pt.expt2.universityFeature"
+      version="1.0.0.202312051318"
+      provider-name="RM2PT">
+
+   <description url="http://www.rm2pt.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.rm2pt.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.rm2pt.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="org.rm2pt.expt2.university.design"
+         download-size="7"
+         install-size="38"
+         version="1.0.0.202312051318"
+         unpack="false"/>
+
+   <plugin
+         id="org.rm2pt.expt2.university.metamodel"
+         download-size="32"
+         install-size="101"
+         version="1.0.0.202312051318"
+         unpack="false"/>
+
+   <plugin
+         id="org.rm2pt.expt2.university.metamodel.edit"
+         download-size="19"
+         install-size="39"
+         version="1.0.0.202312051318"
+         unpack="false"/>
+
+   <plugin
+         id="org.rm2pt.expt2.university.metamodel.editor"
+         download-size="67"
+         install-size="155"
+         version="1.0.0.202312051318"
+         unpack="false"/>
+
+   <plugin
+         id="org.rm2pt.expt2.university.dsl"
+         download-size="56"
+         install-size="147"
+         version="1.0.0.202312051318"
+         unpack="false"/>
+
+   <plugin
+         id="org.rm2pt.expt2.university.dsl.ide"
+         download-size="41"
+         install-size="156"
+         version="1.0.0.202312051318"
+         unpack="false"/>
+
+   <plugin
+         id="org.rm2pt.expt2.university.dsl.ui"
+         download-size="19"
+         install-size="88"
+         version="1.0.0.202312051318"
+         unpack="false"/>		
+</feature>
+
